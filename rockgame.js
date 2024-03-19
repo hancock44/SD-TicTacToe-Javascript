@@ -2,12 +2,19 @@ var computerValue = "rock"
 
 function checkWinner() {
   var computerValue = computerShoot();
+  
 }
 
 function computerShoot() {
-  const dict = {1 = }
   var num = getRandomInt(1,4);
-  
+  var value = "rock";
+  if (num == 1) {
+    var value = "rock";
+  } else if (num == 2) {
+    var value = "paper";
+  } else {
+    var value = "scissors";
+  }
   return value;
 }
 
