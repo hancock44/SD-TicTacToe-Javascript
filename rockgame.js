@@ -1,20 +1,21 @@
 var computerValue = "rock"
 
-function checkWinner() {
+function checkWinner(index) {
   var computerValue = computerShoot();
-  
+  if (index == 1) {
+    var playerValue = "rock";
+  } else if (index == 2) {
+    var playerValue = "paper";
+  } else {
+    var playerValue = "scissors";
+  }
+  if (computerValue == playerValue) {
+    
+  } else if (computerValue 
 }
 
 function computerShoot() {
-  var num = getRandomInt(1,4);
-  var value = "rock";
-  if (num == 1) {
-    var value = "rock";
-  } else if (num == 2) {
-    var value = "paper";
-  } else {
-    var value = "scissors";
-  }
+  var value = getRandomInt(1,4);
   return value;
 }
 
