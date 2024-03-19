@@ -41,16 +41,11 @@ function checkWin(color) {
 }
 
 function reset() {
-  location.reload();
-}
-
-function reset() {
     var buttons = document.getElementsByClassName('button');
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].style.backgroundColor = '#ccc';
     }
     document.getElementById('winMessage').style.display = "none";
-}
     currentPlayer = 1;
     done = false;
 }
