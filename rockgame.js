@@ -1,17 +1,21 @@
-var computerValue = "rock"
-
 function checkWinner(index) {
   var computerValue = computerShoot();
-  if (index == 1) {
-    var playerValue = "rock";
-  } else if (index == 2) {
-    var playerValue = "paper";
-  } else {
-    var playerValue = "scissors";
-  }
+  
   if (computerValue == playerValue) {
     
-  } else if (computerValue 
+  } else if (computerValue == 1 && playerValue == 2) {
+    
+  } else if (computerValue == 2 && playerValue == 1) {
+    
+  } else if (computerValue == 3 && playerValue == 2) {
+    
+  } else if (computerValue == 2 && playerValue == 3) {
+    
+  } else if (computerValue == 1 && playerValue == 3) {
+    
+  } else if (computerValue == 3 && playerValue == 1) {
+    
+  }
 }
 
 function computerShoot() {
