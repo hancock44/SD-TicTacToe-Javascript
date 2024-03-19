@@ -1,58 +1,7 @@
-body {
-    background-color: black;
-    color: white;
-}
-h1 {
-    background-color: black;
-    color: white;
-}
+.button {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        background-color: #ccc;
+    }
 
-#player1 {
-  margin: auto;
-  width: 150;
-}
-
-#player2 {
-  margin: auto;
-  width: 150;
-}
-
-#tictable {
-  width: 150px;
-}
-
-#but1 {
-  
-}
-
-#but2 {
-  
-}
-
-#but3 {
-  
-}
-
-#but4 {
-  
-}
-
-#but5 {
-  
-}
-
-#but6 {
-  
-}
-
-#but7 {
-  
-}
-
-#but8 {
-  
-}
-
-#but9 {
-  
-}
